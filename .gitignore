@@ -1,0 +1,39 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+venv/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+
+# Virtual environment
+.venv/
+
+# Data and models (often large)
+data/
+data_*/
+Recipe_Images/
+models/*.pth
+models/*.pt
+models/*.ckpt
+models/*.pth.tar
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
